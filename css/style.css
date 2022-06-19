@@ -1,0 +1,360 @@
+body{ padding-top: 70px; /* overflow: hidden */}
+
+h1,h2,h3,h4,.lead{ font-family: 'Cairo', sans-serif}
+/**********start overriding boostrap *************/
+/*main navbar*/
+.navbar{  min-height: 70px}
+/*Active link */
+ .navbar-inverse .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+}
+/*linls of navbar */
+    .navbar-inverse .navbar-nav > li > a,
+    .navbar-inverse .navbar-brand{ color:#bbb; padding-top: 25px; padding-bottom: 25px}
+ /*size of links of navbar */
+ .navbar-inverse .navbar-nav > li > a{ font-size: 16px}
+ /*brand */
+ .navbar-brand{font-size: 30px;line-height: 23px}
+ 
+ /*.navbar-brand span:hover{ color: #fff}*/
+ .navbar-toggle{  margin-top: 17px}
+ /*start dropdown-menue style */
+ .dropdown-menu{ background-color: #333; min-width: 200px}
+ .dropdown-menu > li > a{
+     color: #fff;
+     padding: 6px 20px;
+     -webkit-transition: padding 0.5s ease;
+     -moz-transition: padding 0.5s ease;
+     -o-transition: padding 0.5s ease;
+     transition: padding 0.5s ease   
+ }
+ .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus{
+     color: #fff;
+     padding-left:25px;
+ }
+ .navbar-right .dropdown-menu{ left: 0;right: auto}
+ /*end drobdown-menue */
+ /*********carousel ******/
+ .carousel-inner > .item > img, .carousel-inner > .item > a > img{   width:100%;  height: 400px}
+ .carousel-caption{
+   /* color: #b98d8d; */ 
+    bottom: 90px;
+    background-color: rgba(4,8,6,0.3);
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+ .carousel-indicators{ bottom: 0px}
+ .carousel-indicators li{ width: 12px; height: 12px;border: 1px solid #b98d8d;}
+
+  /*******end overriding bootstrap **************/
+
+/*Start Section Tool Box*/
+ .option-box{ position: fixed; top:100px; left: 0; z-index: 9999}
+ .option-box .color-option{
+     float: left;
+     background: #333;
+     padding: 10px;
+     color: #fff;
+     width: 200px;
+     display: none;
+     cursor: pointer;
+ }
+ .option-box .color-option ul li{
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     margin-right: 3px;
+ }
+ .option-box .gear-check{padding: 5px; color: #fff; cursor:pointer}
+/*End Section Tool Box*/
+/*********Start  section  about**********/ 
+.about{padding-top: 60px; padding-bottom: 60px}
+.about .lead{font-size: 25px; color:#888;margin-top: 20px}
+.about h1{ font-weight: bold}
+
+.about.xsmedia .lead-xs{ font-size: 25px; color:#888;margin-top: 20px}
+/******** end    section  about*********/
+/********* start section features*******/
+.features{ background-color: #EEE;padding-top: 30px;padding-bottom: 30px}
+.features h4{  font-weight: bold;color: #555}
+.features .feat{ margin-bottom: 20px}
+.features .feat p{line-height: 2em}
+.features .feat span.glyphicon{ font-size: 17px;margin-bottom: 20px; color: #666}
+/********* end section features*******/
+
+/*******Start Testmounials section*********/
+.testmounials { padding-top:50px; padding-bottom: 50px}
+.testmounials .h1{ margin-top: 30px; font-weight: bold}
+.testmounials .lead{ line-height: 2em;  margin-bottom: 3px}
+
+.testmounials .carousel-inner{ min-height: 120px}
+.testmounials .carousel-indicators{ position: static;width: 100%; margin-left: auto}
+.testmounials .carousel-indicators li{
+    text-indent: 0px;
+    width: 75px;
+    height: 75px;
+    opacity: 0.4;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 4px
+}
+.testmounials .carousel-indicators li.active{
+    opacity: 1;
+    background: none;
+    width: 75px;
+    height: 75px;
+}
+
+.testmounials .carousel-indicators li img{ max-width: 100%}
+/*******End Testmounials section *********/
+
+/**start section price-table *****/
+.price-table{ background: #eee;padding-top: 40px;padding-bottom: 40px}
+.price-table .price-box{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+.price-table .price-box h3{ margin: 5px 0 15px;font-weight: bold}
+.price-table .price-box:hover p{
+    -webkit-transform: scale(1.1,1.1)rotate(360deg);
+    -moz-transform: scale(1.1,1.1)rotate(360deg);
+    -o-transform: scale(1.1,1.1)rotate(360deg);
+    transform: scale(1.1,1.1)rotate(360deg);
+    border: 2px solid #dfdfdf;
+}
+.price-table .price-box p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #666;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f3f3ff;
+    line-height: 80px;
+    border: 2px solid#fff;
+   -webkit-transition-duration:1s;
+   -moz-transition-duration:1s;
+    -o-transition-duration:1s;
+    transition-duration:1s;
+}
+.price-table .price-box ul{ line-height: 250%;font-size: 18px}
+.price-table .price-box a{margin-bottom: 5px}
+/**end section price-table *****/
+/****satrt section our team ****/
+.our_team{
+    background:url('../images/back.jpg')no-repeat center center fixed ;
+    width: 100%;
+    min-height:600px
+}
+.our_team .team{
+    background-color: rgba(1,1,1,0.9);
+    min-height: 600px;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our_team .team .person img{
+    width: 200px;
+    height: 200px;
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -o-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+.our_team .person{ margin-bottom: 40px}
+/****end section our team ****/
+/***start subscribe section ****/
+.subscribe{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: #eee;
+}
+.subscribe .h1{color: #888;letter-spacing: 2px}
+.subscribe p{  margin-bottom: 30px}
+.subscribe .form-control{ border-radius: 0px; margin-right: -5px;width: 300px}
+.subscribe button{border-radius: 0px}
+/****end subscribe section ****/
+/***Start Stats Section*****/
+.statistics{
+    background:url(../images/stats.jpg)no-repeat center center fixed;
+    min-height: 350px;
+    filter: grayscale(100%);
+}
+.statistics .data{
+    background-color: rgba(2,2,2, 0.8);
+    min-height: 350px;
+    color: #b6b5b5;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.statistics .data .stats{  margin-bottom: 40px}
+.statistics .data .stats:hover{color: #fff}
+.statistics .data p{font-size: 45px;font-weight: 500;margin-bottom: 0px}
+.statistics span{font-size: 17px}
+/***End Stats Section**********/
+/********Start Our Skills Section**********/
+.our-skills{padding-top:40px; padding-bottom: 70px}
+.our-skills .h1{font-weight: bold}
+.our-skills .progress-skills{  margin-bottom: 50px}
+.our-skills .progress{ height: 30px}
+.our-skills .progress-bar{
+    line-height: 30px;
+    text-align: left;
+    text-indent: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.our-skills h3{ margin-top: 0px; color: #777; font-weight: bold}
+/********End Our Skills Section**********/
+/* Start Contact Us Section */
+.contact-us{
+    background: url("../images/contact.jpg") center center fixed;
+    min-height: 400px;
+}
+.contact-us a{color: #ccc;}
+.contact-us .field{
+    background: rgba(9,9,9,0.7); 
+    min-height: 400px; 
+    color:#ddd;
+    padding-top:40px;
+    padding-bottom: 70px;
+}
+.contact-us p{ margin-bottom: 40px}
+.contact-us textarea{ height: 106px}
+.contact-us input[type="text"],
+.contact-us textarea{
+    background:rgba(82, 78,78,0.7);
+    color: #fff;
+    border: none;
+}
+
+/* End Contact Us Section */
+
+
+/* Start Clients Section*/
+.clients{
+ padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eee;
+}
+.clients img{
+    width: 126px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.4;
+    filter: alpha(opacity=40)
+}
+.clients img:hover{ opacity: 1}
+/* End Clients Section*/
+/*Start footer section*/
+.footer{ background-color: #111; color:#AAA; padding-top: 20px}
+.footer a{color:#aaa}
+.footer a:hover{color:#fff}
+.footer h3{letter-spacing: 1px; margin: 30px 0 20px 0}
+.footer .three-columns{  overflow: hidden}
+.footer .three-columns li{ width: 33.3333%; float: left; padding: 16px 0}
+.footer .social-list{  overflow: hidden;  margin: 20px 0 10px}
+.footer .social-list li{
+    float: left;
+    margin-right: 3px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.footer .social-list li:hover{opacity:1}
+.footer .img-thumbnail{
+    background:rgba(0,0,0,0.4);
+    border: 1px solid #6666;
+    margin-bottom: 5px;
+}
+.footer .work img{width:155px;height: 111px}
+.footer .copyright{
+    background: #333;
+    color: #AAA;
+    padding: 15px 0;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* End footer Section*/
+/*Start loading screen section*/
+.loading-overlay{
+    width:100%;
+    height:100%;
+    left: 0;
+    top:0;
+    position: fixed;
+    background: #222;
+    z-index: 99999;
+}
+.spinner {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(173, 53, 53);
+  
+    margin: 200px auto;
+    -webkit-animation: sk-rotateplane 2s infinite ease-in-out;
+    animation: sk-rotateplane 2s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+  }
+  
+  @keyframes sk-rotateplane {
+    0% { 
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+    } 50% { 
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+    } 100% { 
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+  }
+/*End loading screen section*/
+/*Start Scrol To Top */
+
+#scroll-top
+{
+    width:50px;
+    height: 40px;
+    background-color: #272727;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+}
+#scroll-top:hover{background-color: #444}
+/*End Scrol To Top */
+/*Start grouping system*/
+.contact-us,.statistics,
+.our_team{
+    -webkit-background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    background-size:100% 100%; 
+}
+.testmounials .carousel-indicators li,
+.footer .social-list li,.clients img,
+.statistics .data .stats{
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.statistics .data .h1,.our-skills .h1,.subscribe .h1,.our_team .team .h1,
+.price-table .h1,.testmounials .h1,.features  .h1{  margin-bottom: 60px}
+/*End grouping system*/

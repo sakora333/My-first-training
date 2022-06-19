@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <title>Bootstrap 3 design 1</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/hover.css" media="all">
+        <link rel="stylesheet" href="css/default-theme.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/mediaquery.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    </head>
+
+    <body>
+        <!--Start Section Tool Box-->
+          <section class="option-box">
+            <div class="color-option">
+              <h4> Color Option</h4>
+              <ul class="list-unstyled">
+                <li data-value="css/default-theme.css"></li>
+                <li data-value="css/burble-theme.css"></li>
+                <li data-value="css/green-theme.css"></li>
+                <li data-value="css/blue-theme.css"></li>
+                <li data-value="css/yellow-theme.css"></li>
+              </ul>
+            </div>
+            <i class="fa fa-gear fa-3x gear-check"></i>
+          </section>
+        <!--End Section Tool Box-->
+        <!--start navbar-->
+        <nav class="navbar  navbar-inverse navbar-fixed-top">
+            <div class="container"><!--container-fluid take the whole width of screen-->
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hvr-grow" href="#">Elzero <span>INC.</span></a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="index.html" class="hvr-grow">Home <span class="sr-only">(current)</span></a></li>
+                  <li><a href="about.html" class="hvr-grow">About</a></li>
+                  <li><a href="faq.html" class="hvr-grow">FAQ</a></li>
+
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle hvr-grow" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Programming</a></li>
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="#">Web Develop</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Web Hosting</a></li>
+                      
+                    </ul>
+                  </li>
+                  <li><a href="#" class="hvr-grow">Contact</a></li>
+
+                </ul>
+                  
+                 
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        <!--end   navbar-->
+        <!--start carousel -->
+        <div id="my-slide" class="carousel slide hidden-xs" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#my-slide" data-slide-to="0" class="active"></li>
+            <li data-target="#my-slide" data-slide-to="1"></li>
+            <li data-target="#my-slide" data-slide-to="2"></li>
+            <li data-target="#my-slide" data-slide-to="3"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/wrapper/develop.jpg" alt="pic-1">
+              <div class="carousel-caption  hidden-xs">
+                 <h1>Web Devlopping</h1>
+                 <p class="lead"> thi is the most important thing you ever made you could be better but if you wabnt to 
+                   improve your carrier you should do your better please try that please  you can , no thing impossibble </p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/wrapper/programming.jpg" alt="pic-2">
+              <div class="carousel-caption hidden-xs">
+                <h1>Programming</h1>
+                <p class="lead"> thi is the most important thing you ever made you could be better but if you wabnt to 
+                  improve your carrier you should do your better please try that please  you can , no thing impossibble </p>
+
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/wrapper/desktop.jpg" alt="pic-3">
+              <div class="carousel-caption hidden-xs">
+                <h1>Desktop</h1>
+                <p class="lead"> thi is the most important thing you ever made you could be better but if you wabnt to 
+                  improve your carrier you should do your better please try that please  you can , no thing impossibble </p>
+
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/wrapper/design.jpg" alt="pic-4">
+              <div class="carousel-caption hidden-xs">
+                <h1>Designning</h1>
+                 <p class="lead"> thi is the most important thing you ever made you could be better but if you wabnt to 
+                   improve your carrier you should do your better please try that please  you can , no thing impossibble </p>
+
+              </div>
+            </div>
+            
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#my-slide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#my-slide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!--  end carousel-->
+        <!--  start Section About -->
+         <section class="about text-center animate__animated animate__bounce wow" data-wow-offset="150" data-wow-duration="2s"  >
+           <div class="container">
+            <h1 class="hidden-xs">Meet Our Tamplate <span>Elzero Inc</span></h1>
+            <h3 class="visible-xs"> Meet Our Tamplate <span>Elzero Inc</span></h3>
+            <p class="lead">hello let me introduce  our template Elzero Inc created with all love using  <strong>bootstrap</strong>  3.2.0</p>
+           </div>
+         </section>
+         <!--end section  about -->
+         <!--start section features-->
+         <section class="features text-center">
+           <div class="container">
+             <h2 class="h1"> Our Features</h2>
+             <div class="row">
+               <div class="col-lg-3 col-md-6">
+                 <div class="feat  animate__animated animate__backInLeft wow" data-wow-duration="2s" data-wow-offset="100">
+                   <span class="glyphicon glyphicon-ok  ">
+                     <h4> 100% responsive</h4>
+                     <p>thi is the most important thing you ever made you could be better but if you</p>
+                   </span>
+                 </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                <div class="feat  animate__animated animate__backInUp wow" data-wow-duration="2s" data-wow-offset="100">
+                  <span class="glyphicon glyphicon-thumbs-up">
+                    <h4> Retina Ready</h4>
+                    <p>thi is the most important thing you ever made you could be better but if you</p>
+
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="feat  animate__animated animate__backInDown wow" data-wow-duration="2s" data-wow-offset="100">
+                  <span class="glyphicon glyphicon-eye-open">
+                    <h4> Awesome Display </h4>
+                    <p>thi is the most important thing you ever made you could be better but if you </p>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="feat  animate__animated animate__backInRight wow" data-wow-duration="2s" data-wow-offset="100">
+                  <span class="glyphicon glyphicon-pencil">
+                    <h4> will Documented</h4>
+                    <p>thi is the most important thing you ever made you could be better but if you</p>
+                  </span>
+                </div>
+              </div>
+
+             </div>
+           </div>
+         </section>
+         <!--end  section features-->
+     
+         <!--start testmounials section-->
+         <section class="testmounials">
+           <div class="container text-center">
+             <h2 class="h1">What Our Clients Say About Us</h2>
+            <div id="testmounials-slide" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <p class="lead"> thi is the most important thing you ever made you could be better but if you wabnt to 
+                    improve your carrier you should do your better please try that please  you can , no thing impossibble </p>
+                  <span> Osama Elzero</span>
+                  </div>
+                <div class="item">
+                  <p class="lead"> thi is the most important thing you ever made you could be better but if you wabnt to 
+                    improve your carrier you should do your better please try that please  you can , no thing impossibble </p>
+                  <span>May Khalil</span>
+                  </div>
+                <div class="item">
+                  <p class="lead"> thi is the most important thing you ever made you could be better but if you wabnt to 
+                    improve your carrier you should do your better please try that please  you can , no thing impossibble </p>
+                  <span>Rami Sham</span>
+                  </div>
+                <div class="item">
+                  <p class="lead"> thi is the most important thing you ever made you could be better but if you wabnt to 
+                    improve your carrier you should do your better please try that please  you can , no thing impossibble </p>
+                  <span>Wesamo Elgali</span>
+                  </div>
+                
+              </div>
+               <!-- Indicators -->
+               <ol class="carousel-indicators">
+                <li data-target="#testmounials-slide" data-slide-to="0" class="active">
+                  <img src="images/clients avator/client2.png"/>
+                </li>
+                <li data-target="#testmounials-slide" data-slide-to="1">
+                  <img src="images/clients avator/client1.webp"/>
+                </li>
+                <li data-target="#testmounials-slide" data-slide-to="2"> 
+                  <img src="images/clients avator/client4.png"/>
+                </li>
+                <li data-target="#testmounials-slide" data-slide-to="3">
+                  <img src="images/clients avator/client3.webp"/>
+                </li>
+              </ol> 
+            </div>      
+           </div>
+         </section>
+         <!--end testmounials section-->
+
+        <!--Start price table section-->
+        <section class="price-table text-center">
+          <div class="container">
+            <h2 class="h1"> Our Amazing prices</h2>
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price-box">
+                  <h3 class="text-primary">Hosting</h3>
+                  <p class="center-block"> 40<span>$</span></p>
+                  <ul class="list-unstyled"> <!--reset the list-->
+                    <li>Space :30GB</li>
+                    <li>Emails :20</li>
+                    <li>IPs :2 Ip</li>
+                    <li>Datase :10</li>
+                    <li>FTP Accounts :10</li>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price-box">
+                  <h3 class="text-success">Vps</h3>
+                  <p class="center-block"> 50<span>$</span></p>
+                  <ul class="list-unstyled"> <!--reset the list-->
+                    <li>Space :50GB</li>
+                    <li>Emails :40</li>
+                    <li>IPs :7 Ip</li>
+                    <li>Datase :10</li>
+                    <li>FTP Accounts :20</li>
+                    <a href="#" class="btn btn-success">Order Now</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price-box">
+                  <h3 class="text-info">Dedicated</h3>
+                  <p class="center-block"> 40<span>$</span></p>
+                  <ul class="list-unstyled"> <!--reset the list-->
+                    <li>Space :30GB</li>
+                    <li>Emails :40</li>
+                    <li>IPs :8 Ip</li>
+                    <li>Datase :30</li>
+                    <li>FTP Accounts :30</li>
+                    <a href="#" class="btn btn-info">Order Now</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price-box">
+                  <h3 class="text-danger">Cloud</h3>
+                  <p class="center-block"> 90<span>$</span></p>
+                  <ul class="list-unstyled"> <!--reset the list-->
+                    <li>Space : 80GB</li>
+                    <li>Emails :20</li>
+                    <li>IPs :2 Ip</li>
+                    <li>Datase :50</li>
+                    <li>FTP Accounts :50</li>
+                    <a href="#" class="btn btn-danger">Order Now</a>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!--end price table section-->
+
+        <!--start section our team-->
+        <section class="our_team text-center">
+          <div class="team">
+            <div class="container">
+              <h2 class="h1">Meet Our Awesom Team</h2>
+              <div class="row">
+                   <div class="col-lg-3 col-md-6">
+                     <div class="person">
+                       <img class="img-circle" src="images/team/im1.jpg "/>
+                       <h3>Lia Rober</h3>
+                       <p>One of the officers in the hospital ne of the officers in the hospital  room was particularly jumpy</p>
+                       <i class="fa fa-google-plus fa-lg"></i>
+                       <i class="fa fa-twitter fa-lg "></i>
+                       <i class="fa fa-facebook fa-lg"></i>
+                       <i class="fa fa-youtube fa-lg"></i>
+                       
+                      </div>
+                   </div>
+                   <div class="col-lg-3 col-md-6">
+                     <div class="person">
+                      <img class="img-circle" src="images/team/im2.jpg "/>
+                      <h3>Lia Rober</h3>
+                      <p>One of the officers in the hospital ne of the officers in the hospital  room was particularly jumpy</p>
+                      <i class="fa fa-google-plus fa-lg"></i>
+                      <i class="fa fa-twitter fa-lg "></i>
+                      <i class="fa fa-facebook fa-lg"></i>
+                      <i class="fa fa-youtube fa-lg"></i>
+                     
+                    </div>
+                   </div>
+                   <div class="col-lg-3 col-md-6">
+                     <div class="person">
+                      <img class="img-circle" src="images/team/im3.jpg "/>
+                      <h3>Lia Rober</h3>
+                      <p>One of the officers in the hospital ne of the officers in the hospital  room was particularly jumpy</p>
+                      <i class="fa fa-google-plus fa-lg"></i>
+                      <i class="fa fa-twitter fa-lg "></i>
+                      <i class="fa fa-facebook fa-lg"></i>
+                      <i class="fa fa-youtube  fa-lg"></i>
+                   </div>
+                   </div>
+                 <div class="col-lg-3 col-md-6">
+                  <div class="person">
+                    <img class="img-circle" src="images/team/im4.jpg "/>
+                    <h3>Lia Rober</h3>
+                    <p>One of the officers in the hospital ne of the officers in the hospital  room was particularly jumpy</p>
+                    <i class="fa fa-google-plus fa-lg"></i>
+                    <i class="fa fa-twitter  fa-lg "></i>
+                    <i class="fa fa-facebook fa-lg"></i>
+                    <i class="fa fa-youtube fa-lg"></i>
+                  </div>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--end section our team-->
+        <!--start subscribe section-->
+        <section class="subscribe text-center">
+          <div class="container">
+              <h2 class="h1  hvr-radial-in">Keep In Touch</h2>
+              <p class="lead">Dont worry about any span ,we also hate it </p>
+              <form class="form-inline ">
+                <input class="form-control input-lg" type="text" placeholder="Type Your Email"/>
+                <button class="btn btn-danger btn-lg"><i class="fa fa-edit fa-lg"></i>Subscribe</button>
+              </form>
+          </div>
+        </section>
+        <!--end subscribe section-->
+
+        <!--Start Stats section-->
+        <section class="statistics text-center">
+          <div class="data"> 
+             <div class="container">
+               <h1>Our Main Statistics </h1>
+               <div class="row">
+                 <div class="col-lg-3 col-sm-6">
+                   <div class="stats">
+                     <i class="fa fa-users fa-4x"></i>
+                     <p>5,980</p>
+                     <span>Staisfied Usres</span>
+                   </div>
+                 </div>
+                 <div class="col-lg-3 col-sm-6">
+                  <div class="stats">
+                   <i class="fa fa-comments fa-4x"></i>
+                   <p>26,500</p>
+                   <span>Posted Comments</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="stats">
+                    <i class="fa fa-suitcase fa-4x"></i>
+                    <p>2,640</p>
+                    <span>Projects Done</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="stats">
+                   <i class="fa fa-support fa-4x"></i>
+                   <p>45,241</p>
+                   <span>Ticket Archived</span>
+                  </div>
+                </div>
+               </div>
+
+          </div>
+        </div>
+         
+        </section>
+
+        <!--End Stats Section-->
+        <!--Start section Our Skills-->
+        <section class="our-skills">
+          <div class="container">
+            <h2 class=" h1 text-center">Our Skills</h2>
+            <div class="row">
+              <!--Start progress Skills-->
+              <div class="col-md-5">
+                <div class="progress-skills">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                       Html5/Css3
+                    </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                         Php/Mysql
+                    </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                        Javascript/Jquery
+                  </div>
+                    </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                      Wordpress
+                  </div>
+                  </div>
+        
+                </div>
+              </div>
+                <!--End Progress Info--> 
+                <!--Start Team Info--> 
+              <div class="col-md-6 col-md-offset-1">
+                <div class="skills-info">
+                  <h3>About The Team</h3>
+                  <p class="lead"> We Are Specilized Web Design Team , We Are So Passion And So Many Dreams to Be The Most Famous Team Around The World</p>
+                  <button type="button" class="btn btn-primary">Talk With Professional</button>
+                </div>
+              </div>
+               <!--End Team Info-->
+            </div>
+          </div>
+
+        </section>
+        <!--End Section Our Skills-->
+        <!--Start Contact us Section-->
+        <section class="contact-us text-center">
+          <div class="field">
+                <div class="container">
+                  <div class="row">
+                    <a href="#" class="hvr-icon-pulse-shrink"> 
+                      <i class="fa fa-headphones fa-5x hvr-icon"></i>
+                    </a>
+                        <h2 class="h1">Contact Us </h2>
+                        <p class="lead">Feel Free To Contact Us Any Time </p>
+                        <!--Start Contact Form-->
+                        <form role="form">
+                          <div class="col-md-6 animate__animated animate__fadeInLeftBig wow" data-wow-offset="300">
+                          <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="First Name">
+                          </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="Email">
+                          </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="Ceil Phone">
+                          </div>
+                          </div> 
+                          <div class="col-md-6 animate__animated animate__fadeInRightBig wow" data-wow-offset="300">
+                            <div class="form-group">
+                              <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+                          </div>
+                        </form>
+                        <!--End Contact Form-->
+                  </div>
+                </div>
+          </div>
+
+        </section>
+        <!-- End Contact us Section-->
+        
+        <!--Start Clients Section-->
+         <section class="clients">
+           <div class="container">
+             <div class="row">
+               <ul class="list-unstyled">
+                 <li class="col-md-2 col-xs-4 animate__animated animate__fadeInLeft wow" >
+                   <img class="img-responsive center-block"src="images/clients/bbc.png">
+                  </li>
+                 <li class="col-md-2 col-xs-4 animate__animated animate__fadeInLeft wow" data-wow-delay=".5s">
+                   <img class="img-responsive center-block" src="images/clients/cnn.png">
+                  </li>
+                 <li class="col-md-2 col-xs-4 animate__animated animate__fadeInLeft wow" data-wow-delay="1s">
+                   <img class="img-responsive center-block" src="images/clients/forbes.png">
+                  </li>
+                 <li class="col-md-2 col-xs-4 animate__animated animate__fadeInLeft wow" data-wow-delay="1.5s">
+                   <img class="img-responsive center-block" src="images/clients/tech.png">
+                  </li>
+                 <li class="col-md-2 col-xs-4 animate__animated animate__fadeInLeft wow" data-wow-delay="2s"> 
+                   <img class="img-responsive center-block" src="images/clients/wired.png">
+                  </li>
+                 <li class="col-md-2 col-xs-4 animate__animated animate__fadeInLeft wow" data-wow-delay="2.5s">
+                   <img class="img-responsive center-block" src="images/clients/wsj.png">
+                  </li>
+               </ul>
+             </div>
+           </div>
+         </section>
+        
+
+        <!--End Clients Section-->
+
+       <!--Start Footer Section-->
+        <section class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                  <h3>SiteMap</h3>
+                  <ul class="list-unstyled three-columns">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Company</li>
+                    <li>Code</li>
+                    <li>Design</li>
+                    <li>Host</li>
+                    <li>Solution</li>
+                    <li>Sitemap</li>
+                    <li>Contact us</li>
+                  </ul>
+              
+              <ul class="list-unstyled social-list">
+                <li><img src="images/socials/facebook.png" alt="01"/></li>
+                <li><img src="images/socials/insta.png" alt="02"/></li>
+                <li><img src="images/socials/snapchat.png" alt="03"/></li>
+                <li><img src="images/socials/twitter.png" alt="04"/></li>
+                <li><img src="images/socials/whatsup.png" alt="05"/></li>
+                <li><img src="images/socials/youtube.png" alt="06"/></li>
+              </ul>
+            </div>
+              <div class="col-lg-4 col-md-6">
+                <h3> Latest Articles</h3>
+                <div class="media">
+                  <a class="pull-left" href="#" >
+                    <img class="media-object" src="images/articles/01.jpg" alt="image 01"/>
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      Programms
+                    </h4>
+                     this is some article about programming describe the media of bootstraop
+                  </div>
+                </div>
+                <div class="media">
+                  <a class="pull-left" href="#" >
+                    <img class="media-object" src="images/articles/02.jpg" alt="image 03"/>
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      Coding
+                    </h4>
+                     this is some article about programming describe the media of bootstraop
+                  </div>
+                </div>
+                <div class="media">
+                  <a class="pull-left" href="#" >
+                    <img class="media-object" src="images/articles/04.jpg" alt="image 04"/>
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      Web Design
+                    </h4>
+                     this is some article about programming describe the media of bootstraop
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-4 work">
+                <h3>Our Wesome Work</h3>
+                <img  class="img-thumbnail" src="images/work/01.jpg" alt="01"/>
+                <img class="img-thumbnail" src="images/work/02.jpg" alt="02"/>
+                <img  class="img-thumbnail" src="images/work/03.jpg" alt="03"/>
+                <img class="img-thumbnail" src="images/work/04.jpg" alt="04"/>
+              </div>
+            </div>
+          </div>
+          <div class="copyright text-center">
+            Copyright &copy 2021<span>Your Template Name</span>.Inc
+          </div>
+        </section>
+       <!--End Footer Section -->
+       <!--Start loading screen-->
+       <!-- <section class="loading-overlay">
+          <div class="spinner"></div>          
+        </section> -->
+       <!--End loading screen-->
+       <!--Start Scrol To Top Section-->
+       <div id="scroll-top">
+         <i class="fa fa-chevron-up fa-3x"></i>
+       </div>
+       <!--End Scrol To Top Section-->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script  src="js/bootstrap.min.js"></script>
+        <script  src="js/plugins.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+    </body>
+</html>

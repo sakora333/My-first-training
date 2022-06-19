@@ -1,0 +1,80 @@
+
+.breadcrumbs-holder{
+    background-color: #f5f5f5;
+}
+.breadcrumb {margin-bottom: 0px;}
+/* Start About Page*/
+.about-us{
+    margin: 60px 0;
+}
+.about-us h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+.about-us hr{ 
+border-color: rgb(237, 225, 248);
+width: 90%;
+}
+.about-us p{
+    padding: 25px;
+    letter-spacing: -1px;
+    padding: 26px 66px;
+}
+.about-feats{margin-bottom: 25px;}
+.about-feats h3{
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: -1px;
+font-weight: bold;
+}
+.about-ceo{
+    background-color: #eee;  
+    margin-top: 40px;
+}
+.about-ceo h2{
+padding-top: 20px;
+font-family:serif}
+.about-ceo .lead{
+    font-weight: 600;
+    line-height: 3;
+}
+.about-ceo p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.about-ceo .btn-primary{
+    background-color: #333;
+    border-color: #333;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+/* End About Page*/
+/*Start FAQ page*/
+.faq{padding:50px;}
+.faq h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    letter-spacing: -1px;
+}
+.faq h1~hr{  width: 70%}
+.faq p{
+font-size: 30px;
+letter-spacing: -2px
+}
+.faq-question{ margin-top: 30px;}
+
+.faq-question .panel-heading a.collapsed:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e080";
+    color: #999;
+ float: right;
+}
+.faq-question .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    color: #444;
+    float: right;
+}
+
+/*End FAQ page*/
